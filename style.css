@@ -11,8 +11,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 16px;
   min-height: 100vh;
   user-select: none;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 12px;
+  padding-left: 12px;
+  color: #7aa2f7;
+  text-shadow: 0 0 12px rgba(122, 162, 247, 0.6);
 }
 
 .wrapper {
